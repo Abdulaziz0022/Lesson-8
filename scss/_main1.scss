@@ -1,0 +1,130 @@
+.main {
+    padding-top: 150px;
+    width: 80%;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+}
+
+.main1 {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+
+.claster {
+    border-left: 2px solid grey;
+    padding-left: 30px;
+
+    h2 {
+        color: grey;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    p {
+        color: #3D4A39;
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+}
+
+.claster1 {
+    border-left: 2px solid grey;
+    padding-left: 30px;
+
+    h2 {
+        color: grey;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    p {
+        color: #3D4A39;
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+}
+
+.claster2 {
+    border-left: 2px solid grey;
+    padding-left: 30px;
+
+    h2 {
+        color: grey;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    p {
+        color: #3D4A39;
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+}
+
+.facility {
+    height: 700px;
+    background-color: #3D4A39;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+
+    h2 {
+        font-size: 50px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        margin-bottom: 80px;
+    }
+
+    div {
+        width: 80%;
+        margin: 0 auto;
+        color: white;
+
+        .part1 {
+            display: flex;
+            margin-bottom: 80px;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+            gap: 250px;
+
+            .img5 {
+                img {
+                    margin-bottom: 25px;
+                }
+            }
+        }
+
+        .part2 {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            gap: 250px;
+
+            // padding-left: 20px;
+            .div7 {
+                // margin-left: 30px;
+            }
+
+            .div8 {
+                // margin-left: 5px;
+            }
+        }
+    }
+}
