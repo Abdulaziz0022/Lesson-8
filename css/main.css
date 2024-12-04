@@ -55,6 +55,11 @@ header {
   padding: 0;
 }
 
+.container {
+  max-width: 1700px;
+  min-width: 850px;
+}
+
 .main {
   padding-top: 150px;
   width: 80%;
@@ -173,6 +178,88 @@ header {
   justify-content: space-between;
   text-align: center;
   gap: 250px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container header {
+    justify-content: space-between;
+  }
+
+  .container header img {
+    transform: scale(1.2);
+    padding-right: 400px;
+  }
+
+  .container header .ul1 {
+    display: none;
+  }
+
+  .container header .ul2 {
+    display: none;
+  }
+
+  .container header .ul3 {
+    transform: scale(1.5);
+  }
+
+  .container header .ul3 li {
+    width: 200px;
+  }
+
+  .container .baner {
+    display: none;
+  }
+
+  .container .main h1 {
+    margin-left: 80px;
+    width: 500px;
+    margin-bottom: 150px;
+  }
+
+  .container .main .main1 {
+    display: inline;
+  }
+
+  .container .main .main1 .claster {
+    margin-bottom: 180px;
+    transform: scale(1.2);
+  }
+
+  .container .main .main1 .claster1 {
+    margin-bottom: 180px;
+    transform: scale(1.2);
+    margin-left: 280px;
+  }
+
+  .container .main .main1 .claster2 {
+    margin-bottom: 180px;
+    transform: scale(1.2);
+  }
+
+  .container .facility {
+    width: 100%;
+    margin-bottom: 0;
+    height: auto;
+  }
+
+  .container .facility .parts {
+    display: flex;
+  }
+
+  .container .facility .parts .part1 {
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  .container .facility .parts .part2 {
+    display: inline;
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

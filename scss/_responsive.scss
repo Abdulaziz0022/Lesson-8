@@ -1,0 +1,83 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+
+        header {
+            justify-content: space-between;
+
+            img {
+                transform: scale(1.2);
+                padding-right: 400px;
+            }
+
+            .ul1 {
+                display: none;
+            }
+
+            .ul2 {
+                display: none;
+            }
+
+            .ul3 {
+                transform: scale(1.5);
+
+                li {
+                    width: 200px;
+                }
+            }
+        }
+
+        .baner {
+            display: none;
+        }
+
+        .main {
+            h1 {
+                margin-left: 80px;
+                width: 500px;
+                margin-bottom: 150px;
+            }
+
+            .main1 {
+                display: inline;
+
+                .claster {
+                    margin-bottom: 180px;
+                    transform: scale(1.2);
+                }
+
+                .claster1 {
+                    margin-bottom: 180px;
+                    transform: scale(1.2);
+                    margin-left: 280px;
+                }
+
+                .claster2 {
+                    margin-bottom: 180px;
+                    transform: scale(1.2);
+                }
+            }
+        }
+
+        .facility {
+            width: 100%;
+            margin-bottom: 0;
+            height: auto;
+
+            .parts {
+                display: flex;
+
+                .part1 {
+                    display: inline-block;
+                    font-size: 20px
+                }
+
+                .part2 {
+                    display: inline;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
